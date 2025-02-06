@@ -35,4 +35,27 @@ export const blogPosts: BlogPost[] = [
     tags: ["React", "Server Components", "Web Development"],
   },
   // Add more sample posts as needed
+  {
+    id: "3",
+    title: "The Impact of Blockchain on Web Development",
+    description:
+      "Exploring the potential of blockchain technology in revolutionizing web development.",
+    content: "Lorem ipsum dolor sit amet...", // Add more content here
+    slug: "impact-of-blockchain-on-web-development",
+    date: "2024-03-15",
+    author: "Mike Johnson",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    tags: ["Blockchain", "Web Development", "Technology"],
+  },
+  {
+    id: "4",
+    title: "The Evolution of Web Accessibility",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    content: "Lorem ipsum dolor sit amet...", // Add more content here
+    slug: "evolution-of-web-accessibility",
+    date: "2024-03-12",
+    author: "Sarah Wilson",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    tags: ["Web Development", "Accessibility", "User Experience"],
+  },
 ];
