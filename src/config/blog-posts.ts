@@ -58,4 +58,16 @@ export const blogPosts: BlogPost[] = [
     image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
     tags: ["Web Development", "Accessibility", "User Experience"],
   },
+  // Add more sample posts as needed
+  {
+    id:"5",
+    title: "Building a Progressive Web App with Next.js",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    content: "Lorem ipsum dolor sit amet...", // Add more content here
+    slug: "building-a-progressive-web-app-with-next-js",
+    date: "2024-03-09",
+    author: "Emily Thompson",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    tags: ["Next.js", "Web Development", "Progressive Web App"],
+  }
 ];

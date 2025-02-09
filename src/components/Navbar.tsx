@@ -31,10 +31,10 @@ const Navbar = () => {
                 Home
               </Link>
               <Link
-                href="#featured"
+                href="/blog"
                 className=" px-3 py-2 rounded-md text-sm font-medium"
               >
-                Featured
+                Blogs
               </Link>
               <Link
                 href="#categories"
