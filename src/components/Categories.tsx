@@ -73,7 +73,7 @@ const Categories: React.FC = () => {
                 </span>
               </div>
               <h3 className="text-xl font-bold  mb-2">{category.name}</h3>
-              <p className="text-gray-400 group-hover:text-white">
+              <p className=" group-hover:text-white">
                 Latest updates and insights on {category.name}.
               </p>
             </div>

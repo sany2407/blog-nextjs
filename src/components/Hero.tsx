@@ -1,31 +1,34 @@
-const Hero: React.FC = () => {
+import React from "react";
+import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
+
+export function Hero() {
   return (
-    <section className="bg-background border-b border-foreground/10 min-h-screen pt-16 flex items-center ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold  mb-6">
+    <BackgroundBeamsWithCollision>
+      <div className="relative z-20 text-center">
+        <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold  tracking-tight">
           Where Opinions Shape Tomorrow
-        </h1>
-        <p className="text-xl md:text-2xl  mb-8 max-w-3xl mx-auto">
+        </h2>
+        <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))] mt-4">
+          <div className="relative bg-clip-text text-transparent font-bold bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-2">
+            <span className="text-7xl">Opinion Matters</span>
+          </div>
+        </div>
+        <p className="text-lg md:text-xl lg:text-2xl mt-6">
           Dive into thought-provoking discussions on technology, culture, and
           innovation.
         </p>
-        <div className="flex justify-center gap-4">
-          <a
-            href="/categories"
-            className="bg-[#6C5CE7]  px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all"
-          >
+        <p className="text-lg md:text-xl lg:text-2xl mt-4">
+          Your perspective matters in shaping the future.
+        </p>
+        <div className="mt-8">
+          <button className="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
             Explore Categories
-          </a>
-          <a
-            href="/blog"
-            className="border-2 border-[#6C5CE7]  px-8 py-3 rounded-lg font-medium hover:bg-[#6C5CE7] transition-all"
-          >
+          </button>
+          <button className="ml-4 px-6 py-3 bg-pink-600 text-white rounded-lg hover:bg-pink-700 transition-colors">
             Read Blog
-          </a>
+          </button>
         </div>
       </div>
-    </section>
+    </BackgroundBeamsWithCollision>
   );
-};
-
-export {  Hero };
+}
